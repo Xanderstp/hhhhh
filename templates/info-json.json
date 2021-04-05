@@ -1,0 +1,32 @@
+{
+    "info": [
+        {
+            "name": "Адам",
+            "surname": "Бейли",
+            "photo": "photo-1.jpg",
+            "specialty": ["капитан"]
+            
+        },
+        {
+            "name": "Алекс",
+            "surname": "Андерсон",
+            "photo": "photo-2.jpg",
+            "specialty": ["борт-инженер"]
+            
+        },
+        {
+            "name": "Брюс",
+            "surname": "Браун",
+            "photo": "photo-3.jpg",
+            "specialty": ["штурман"]
+            
+        },
+        {
+            "name": "Бен",
+            "surname": "Вильямс",
+            "photo": "photo-4.jpg",
+            "specialty": ["пилот", "врач"]
+            
+        }]
+            
+}

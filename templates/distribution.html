@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+        li {
+            font-size: 20pt;
+            }
+
+        h2 {
+        text-align: center
+        }
+</style>
+
+{% set crew = ['Адам Бейли', 'Алекс Андерсон',
+               'Брюс Браун', 'Бен Вильямс'] %}
+<h2>Список расселения</h2>
+{% for mate in crew %}
+
+    {% if loop.first %}
+        <li>{{mate}} &mdash; каюта номер №{{loop.index}} &mdash; капитан корабля</li>
+    {% else %}
+        <li>{{mate}} &mdash; каюта номер №{{loop.index}}</li>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
